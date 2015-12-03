@@ -60,4 +60,4 @@ model.fit(X_train, y_train, batch_size = batch_size, nb_epoch=4,
           validation_data=(X_test,y_test), show_accuracy=True)
 score, acc = model.evaluate(X_test, y_test,  batch_size = batch_size, show_accuracy=True)
 print ('Test score: ', score)
-print ('Test Accuracy: ', accuracy)
+print ('Test Accuracy: ', acc)
